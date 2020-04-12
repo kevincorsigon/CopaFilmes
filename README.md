@@ -1,26 +1,27 @@
-# angular-films-tournament
+# CopaFilmes Backend
 
 [Criado por Kevin Corsini Gonçalves](https://www.linkedin.com/in/kevin-corsini-gon%C3%A7alves-0952a36b/)
 
-Para executar bata rodar:
+Para executar a API:
 
-Para instalar as dependencias:
+*Abrir com o visual studio
 
-```console
-npm install 
-```
+*Restaurar as dependencias
 
+*Setar o projeto CopaFilmes.Api como projeto de inicialização
 
-Para iniciar a aplicação:
+*Iniciar o projeto com o IIS Express
 
-```console
-ng serve
-```
+*O Swagger da API deverá ser exibido em http://localhost:53656.
 
-A aplicação será iniciada em http://localhost:4200/
+Para executar os testes:
 
-É necessário que o BackEnd esteja rodando.
+*Compile a solução (Crtl + shift + B)
 
-Link para o repositorio do Back End:
+*Vá até o Test Explorer e execute todos os testes (Crtl + R + A)
 
-[BackEnd](https://github.com/kevincorsigon/CopaFilmes)
+*O resultado da execução será apresentado
+
+Link para o FrontEnd:
+
+[Front](https://github.com/kevincorsigon/angular-films-tournament)
