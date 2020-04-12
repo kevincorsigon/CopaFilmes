@@ -2,25 +2,27 @@
 
 [Criado por Kevin Corsini Gonçalves](https://www.linkedin.com/in/kevin-corsini-gon%C3%A7alves-0952a36b/)
 
+## Como rodar
+
 ###Para executar a API:
 
-*Abrir com o visual studio
+* Abrir com o visual studio
 
-*Restaurar as dependencias
+* Restaurar as dependencias
 
-*Setar o projeto CopaFilmes.Api como projeto de inicialização
+* Setar o projeto CopaFilmes.Api como projeto de inicialização
 
-*Iniciar o projeto com o IIS Express
+* Iniciar o projeto com o IIS Express
 
-*O Swagger da API deverá ser exibido em http://localhost:53656.
+* O Swagger da API deverá ser exibido em http://localhost:53656.
 
 ###Para executar os testes:
 
-*Compile a solução (Crtl + shift + B)
+* Compile a solução (Crtl + shift + B)
 
-*Vá até o Test Explorer e execute todos os testes (Crtl + R + A)
+* Vá até o Test Explorer e execute todos os testes (Crtl + R + A)
 
-*O resultado da execução será apresentado
+* O resultado da execução será apresentado
 
 ###Link para o FrontEnd:
 
