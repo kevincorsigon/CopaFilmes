@@ -4,7 +4,7 @@
 
 ## Como rodar
 
-###Para executar a API:
+### Para executar a API:
 
 * Abrir com o visual studio
 
@@ -16,7 +16,7 @@
 
 * O Swagger da API deverá ser exibido em http://localhost:53656.
 
-###Para executar os testes:
+### Para executar os testes:
 
 * Compile a solução (Crtl + shift + B)
 
@@ -24,6 +24,6 @@
 
 * O resultado da execução será apresentado
 
-###Link para o FrontEnd:
+### Link para o FrontEnd:
 
-[Front](https://github.com/kevincorsigon/angular-films-tournament)
+[FrontEnd Angular](https://github.com/kevincorsigon/angular-films-tournament)
