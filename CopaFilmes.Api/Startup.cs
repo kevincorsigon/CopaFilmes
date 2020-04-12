@@ -43,11 +43,13 @@ namespace CopaFilmes.Api
                         Description = "API REST criada com o ASP.NET Core 3.0",
                         Contact = new OpenApiContact
                         {
-                            Name = "Kevin Corsini Gonçalves",
+                            Name = "Kevin Corsini Goncalves",
                             Url = new Uri("https://www.linkedin.com/in/kevin-corsini-gon%C3%A7alves-0952a36b/")
                         }
                     });
             });
+
+            services.AddCors();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -68,6 +70,8 @@ namespace CopaFilmes.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {
