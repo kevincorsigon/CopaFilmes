@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using CopaFilmes.Api.Extensions;
 using CopaFilmes.Api.Models;
@@ -22,7 +20,7 @@ namespace CopaFilmes.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ResultadoCampeonatoDto>> RealizaCampeonato([FromBody]CampeonatoDto campeonato)
+        public async Task<ActionResult<ResponseWrapper<ResultadoCampeonatoDto>>> RealizaCampeonato([FromBody]CampeonatoDto campeonato)
         {
             try
             {

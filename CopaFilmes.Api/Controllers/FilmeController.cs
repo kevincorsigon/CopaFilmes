@@ -21,7 +21,7 @@ namespace CopaFilmes.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<FilmeDto>>> Get()
+        public async Task<ActionResult<ResponseWrapper<IEnumerable<FilmeDto>>>> Get()
         {
             try
             {
